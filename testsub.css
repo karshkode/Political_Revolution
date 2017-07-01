@@ -1224,3 +1224,31 @@ a[href*="?Socialist"] {
 .side a[href="https://www.reddit.com/r/Political_Revolution/about/sticky"]:empty, .comments-page .side a[href="https://www.reddit.com/r/Political_Revolution/about/sticky"] {
  display: none!important;
 }
+
+/* Activism Coloration
+=======================*/
+body {
+ background: -moz-repeating-linear-gradient(
+   45deg,
+   #BC3F41,
+   #BC3F41 2em,
+   #BC4647 2em,
+   #BC4647 4em
+ );
+ background-attachment:fixed;
+ height:100%;
+ background: -webkit-repeating-linear-gradient(
+   45deg,
+   #BC3F41,
+   #BC3F41 20px,
+   #BC4647 20px,
+   #BC4647 40px
+ );
+}
+
+.side {
+ background: transparent;
+}
+
+/*======================
+End Activism Coloration */
