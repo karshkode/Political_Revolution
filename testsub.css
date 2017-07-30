@@ -1,3 +1,15 @@
+a.title[href*="oliver"]{
+    background-color: #339999 !important;
+    color: #04243E !important;
+    padding: 4px 10px;
+    font-weight: bold !important;
+    line-height: 28px;
+    border: 2px solid #BC3F41;
+    border-radius: 15px;
+    overflow: visible !important;
+}
+
+
   /*
 
   Formato CSS Theme
@@ -6,7 +18,65 @@
   Contributors: /u/AvadaKedavra03, /u/seamslegit, /u/CaptainPalma, /u/Smona, /u/Tyree07
 
 ==============================================================================*/
+body:not(:lang(nt)).hot-page .side a[title*="continue"] {
+  position: fixed;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  bottom: 0px;
+  font-size: 25px;
+  left: 0;
+  height: 5%;
+  width: 100%;
+  color: #339999;
+  border-top: 3px solid #3b8dbd;
+  background-color: #F7F7F7;
+  font-weight: bold;
+  z-index: 10000!important;
+  opacity: 255;
+}
 
+body:not(:lang(nt)).res.res-nightmode .side a[title*="continue"] {
+  background: #141417;
+}
+
+body:not(:lang(nt)).hot-page .titlebox a[title*="netneutrality"] {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgb(14,14,14); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    width: 100%;
+    height: 95%;
+    font-size: 37px;
+    color: #F7F7F7;
+    text-align: center justify;
+    line-height: 2.5;
+    display: inline-block;
+    padding-top: 15%;
+    font-weight: 800;
+    vertical-align: middle;
+    padding-right: 50px;
+    padding-left: 50px;
+    z-index: 9999;
+    opacity: .8;
+}
+
+body:not(:lang(nt)).hot-page .titlebox a[title*="netneutrality"] {
+    border-top: 50px solid rgba(255, 255, 255, 1.5);
+}
+
+body.res.res-nightmode:not(:lang(nt)).hot-page .titlebox a[title*="netneutrality"] {
+    border-top: 50px solid rgba(0, 0, 0, 1.5);
+}
+
+
+/*TOP BAR – REMOVE FOR NET NEUTRALITY BOX*/
+/*
+body.res.res-nightmode,html[lang="nm"] body{background:#141417}body:before{position:absolute;top:0;left:0;z-index:1000;width:100%;height:50px;box-shadow:0 0 5px rgba(0,0,0,.2),0 1px 0 rgba(255,255,255,.15);background:#26272b;content:"Add a bullet list to the sidebar and it'll show up here!";font:14px/50px normal Titillium,Arial,sans-serif;text-indent:20px;color:rgba(255,255,255,0.7)}.side .usertext .md > ul:nth-of-type(1){position:absolute;top:0;left:10px;z-index:1001;margin:0;min-width:350px;height:50px;padding:0;background:#26272b;white-space:nowrap;font-size:14px;color:rgba(255,255,255,0.7);
+/*END TOP BAR */
 
 *,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-family:"Titillium",-apple-system,".SFNSDisplay-Light",Helvetica,Arial,"Lucida Grande",sans-serif;-webkit-text-size-adjust:none!important;-moz-text-size-adjust:none!important;-ms-text-size-adjust:none!important;outline:none!important}::selection{background:#339999; color:#fff}a,.link .tagline a,.titlebox form.toggle.flairtogglehe + .tagline a.author,*/.comment .tagline a.author{color:#339999;transition:color .1s}*/a:hover,.link .tagline a:hover,.entry .buttons li a:hover,.res .redditSingleClick:hover,.comment .tagline a.author:hover{color:#444}.btn:not(.gold-button):not(.close-button):not(.subreddit-rule-submit-button):not(.subreddit-rule-cancel-button),button:not(.gold-button):not(.close-button):not(.subreddit-rule-submit-button):not(.subreddit-rule-cancel-button),#NERFail .nextprev a,#wiki_save_button.wiki_button{display:inline-block;vertical-align:middle;height:25px;border:0!important;border-radius:3px;padding:0 10px;background:#82b965;text-align:center;text-transform:capitalize;line-height:25px;font-weight:700;color:#fff;transition:.1s}button.cancel:not(.gold-button):not(.close-button):not(.subreddit-rule-submit-button):not(.subreddit-rule-cancel-button),.btn[name="preview"]:not(.gold-button):not(.close-button):not(.subreddit-rule-submit-button):not(.subreddit-rule-cancel-button),.sheets .btn.right:not(.gold-button):not(.close-button):not(.subreddit-rule-submit-button):not(.subreddit-rule-cancel-button),.flairrow .flairdeletebtn{background:#3b8dbd}.sheets .btn.right a{color:#fff!important}.toggle .error,form.toggle.remove-button{font-size:12px}body{position:relative;background:#eaeaea}body.res.res-nightmode,html[lang="nm"] body{background:#141417}body:before{position:absolute;top:0;left:0;z-index:1000;width:100%;height:50px;box-shadow:0 0 5px rgba(0,0,0,.2),0 1px 0 rgba(255,255,255,.15);background:#26272b;content:"Add a bullet list to the sidebar and it'll show up here!";font:14px/50px normal Titillium,Arial,sans-serif;text-indent:20px;color:rgba(255,255,255,0.7)}.side .usertext .md > ul:nth-of-type(1){position:absolute;top:0;left:10px;z-index:1001;margin:0;min-width:350px;height:50px;padding:0;background:#26272b;white-space:nowrap;font-size:14px;color:rgba(255,255,255,0.7)}.side .usertext .md > ul:nth-of-type(1) a{color:#fff}.side .usertext .md > ul:nth-of-type(1) li{position:relative;display:inline-block;margin:0;margin-right:-4px;height:50px;padding:0 20px;line-height:50px}.side .usertext .md > ul:nth-of-type(1) li p{margin:0;height:50px;line-height:50px}.side .usertext .md > ul:nth-of-type(1) li ul{position:absolute;top:100%;left:0;overflow:hidden;margin:0;min-width:100%;height:auto;max-height:0;padding:0;transition:.5s}.side .usertext .md > ul:nth-of-type(1) li ul li{display:block;position:relative;height:20px;line-height:20px;white-space:nowrap;transition:.5s}.side .usertext .md > ul:nth-of-type(1) li:hover,.side .usertext .md > ul:nth-of-type(1) li ul,#sr-header-area .selected.title:hover,#sr-header-area a:hover,#sr-header-area .selected a,.res #srList tr:hover,.res #
 SubredditGroupDropdown li:hover,.res #RESSubredditGroupDropdown .RESShortcutsCurrentSub{background:#222327;color:#fff}.side .usertext .md > ul:nth-of-type(1) li:hover ul{max-height:840px}.side .usertext .md > ul:nth-of-type(1) li:hover ul li{height:40px;line-height:40px}.side .usertext .md > ul:nth-of-type(1) li ul li ul{display:none}#search{position:absolute;z-index:2147483647;top:0;right:10px;box-shadow:-1px 0 0 rgba(255,255,255,0.1);width:50px;height:50px;transition:.2s}.res-nightmode #search,html[lang="nm"] #search{box-shadow:-1px 0 0 rgba(0,0,0,.3)}#search:hover{background:#222327}#search:hover:before{position:absolute;top:0;left:-270px;width:270px;height:50px;content:""}#search:after{position:absolute;top:12.5px;left:12.5px;width:25px;height:25px;background:url(%%spritesheet%%) no-repeat -172.5px -2.5px/449px 311px;content:"";pointer-events:none}#search input[type="text"]{position:absolute;z-index:1;top:50px;right:0;opacity:0;box-shadow:inset 0 0 0 2px #e2e2e2;border:10px solid #222327;border-radius:0;width:320px;height:60px;padding-left:35px;transition:.2s;pointer-events:none}#search input[type="text"]::-webkit-input-placeholder:before{content:"To "}#search input[type="text"]::-webkit-input-placeholder:after{content:", type and hit enter"}#search input[type="submit"]{position:absolute;top:73px;right:285px;z-index:2;opacity:0;transition:.2s;pointer-events:none;transition:0}#searchexpando{position:absolute;left:-270px;top:110px;margin:0;width:320px;border:0;border-radius:0;padding:0px;background:#222327;color:rgba(255,255,255,.7);opacity:0;pointer-events:none;transition:opacity .2s}#searchexpando a{color:#fff}label+#moresearchinfo{border:0}#search:hover input[type="text"],#search:hover input[type="submit"],#search:hover #searchexpando{opacity:1;pointer-events:auto}.side .usertext .md ul:nth-of-type(1) li ul li:not(:nth-of-type(1)),#sr-header-area .drop-choices.srdrop a:not(:nth-of-type(1)),.res #srList tr,.res #RESSubredditGroupDropdown li:not(:nth-of-type(1)),#searchexpando{border-top:1px solid rgba(255,255,255,.1);border-bottom:0}.res #srList thead>tr{border-top:0}#header{position:static;border:0;height:300px;background:#33363b}.res.res-nightmode #header,.res.res-nightmode #header-bottom-left:before,html[lang="nm"] #header,html[lang="nm"] #header-bottom-left:before{background:#24262a}#sr-header-area{padding-top:50px;box-shadow:0 0 5px rgba(0,0,0,0.2),0 1px 0 rgba(255,255,255,0.15);height:75px;line-height:25px;border:0;background:#26272b}body.res.res-nightmode #sr-header-area,html[lang="nm"] #sr-header-area,body.res.res-nightmode:before,html[lang="nm"] body:before,.res.res-nightmode .side .usertext .md > ul:nth-of-type(1),html[lang="nm"] .side .usertext .md > ul:nth-of-type(1){background:#1d1f22!important}body.res.res-nightmode #sr-header-area,body.res.res-nightmode:before,html[lang="nm"] #sr-header-area,html[lang="nm"] body:before{box-shadow:0 0 5px rgba(0,0,0,.2),0 1px 0 rgba(0,0,0,.3)}#sr-header-area .dropdown.srdrop{padding:0}#sr-header-area .selected.title{margin:0;padding:0 6px;background:none;color:rgba(255,255,255,0.7)}#sr-header-area .selected.title:after,.menuarea .dropdown.lightdrop .selected:after{content:" ▾"}#sr-header-area a{display:inline-block;padding:0 6px;color:rgba(255,255,255,0.7)}#sr-header-area .drop-choices.srdrop a{display:block;height:15px;line-height:15px;transition:height .4s,line-height .4s}#sr-header-area .drop-choices.srdrop.inuse a{height:25px;line-height:25px;transition:height .4s,line-height .4s}.res #sr-header-area a.RESShortcutsCurrentSub,.res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a{color:#fff!important}.res #RESShortcuts{color:rgba(255,255,255,.7)}#sr-header-area .separator,#sr-header-area .srSep{display:none}#sr-header-area #srLeftContainer{margin:0;padding:0}#sr-header-area #RESShortcutsViewport{max-height:25px;padding-left:1px}.res #RESShortcuts.sr-bar{box-shadow:-1px 0 0 rgba(255,255,255,0.1);padding-left:6px}.res.res-nightmode #RESShortcuts.sr-bar,html[lang="nm"] #RESShortcuts.sr-bar{box-shadow:-1px 0 0 rgba(0,0,0,.3)}.res #RESShortcuts.sr-bar a.subbarlink:nth-of-type(1){margin-left:-6px}.res #editShortcutDialog{top:75px}#sr-header-area .drop-choices.srdrop,.res #srList,.res #RESSubredditGroupDropdown{margin-left:0;border:0;padding:0;background:#26272b;text-transform:uppercase;font-size:9px;transition:max-height .4s}.res #srList,.res #RESSubredditGroupDropdown{top:75px!important}.res #srList{max-height:90%!important}.res #RESSubredditGroupDropdown{overflow:hidden;max-height:300px}#sr-header-area .drop-choices.srdrop,.res #srList[style*="display: none;"],.res #RESSubredditGroupDropdown[style*="display: none;"]{display:block!important;max-height:0!important;transition:max-height .4s!important}#sr-header-area .drop-choices.srdrop{overflow:hidden;top:25px}#sr-header-area .drop-choices.srdrop.inuse{max-height:1000px!important}.res #RESSubredditGroupDropdown li{margin:0;padding:0}.res #srList[style*="display: none;"] tr{height:15px;transition:height .4s}.res #srList tr{height:25px;transition:height .4s}.res #RESSubredditGroupDropdown[style*="display: none;"] a{height:15px;line-height:15px;transition:.4s}.res #RESSubredditGroupDropdown a{display:block;height:25px;padding:0 6px;line-height:25px;color:rgba(255,255,255,.7);transition:.4s}.res #RESSubredditGroupDropdown li + .RESShortcutsEditButtons{margin:0}.res #srList,.res #srList a,.res #RESSubredditGroupDropdown li + .RESShortcutsEditButtons a{color:rgba(255,255,255,.7)}.res #RESSubredditGroupDropdown li:hover a{color:#fff}#sr-more-link,.res #RESShortcutsEditContainer{height:25px;max-height:25px;box-shadow:-1px 0 0 rgba(255,255,255,0.1);background:#26272b}.res-nightmode #sr-more-link,.res.res-nightmode div#RESShortcutsEditContainer,html[lang="nm"] #sr-more-link,html[lang="nm"] div#RESShortcutsEditContainer{box-shadow:-1px 0 0 rgba(0,0,0,.3);background:#1d1f22}#sr-more-link{top:0}.res #RESShortcutsEditContainer{top:50px}.res #RESShortcutsEditContainer div,.res.res-nightmode #RESShortcutsEditContainer div{line-height:23px;background:none;color:rgba(255,255,255,.7)}#header #header-img{position:absolute;top:85px;left:10px;margin:0;width:100px;height:100px;padding-left:50px;background:url(%%spritesheet%%) -101.25px -1.25px/224px 155.5px}#header .pagename{position:absolute;top:100px;left:125px;font-size:0}#header .pagename:after{display:block;margin-top:7px;font-size:16px;font-weight:400;font-style:italic;font-variant:normal;white-space:nowrap;color:rgba(255,255,255,.5);content:"Your subtitle goes here!"}#header .pagename a{display:inline-block;background:url(%%spritesheet%%) -.8px -38.1px/159px 110.3px;width:157px;height:50px}#header-bottom-left:before{position:absolute;left:20px;right:20px;top:200px;width:auto;height:50px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.05),0 -1px 0 rgba(0,0,0,0.2),inset 1px 0 0 rgba(0,0,0,0.2),inset -1px 0 0 rgba(0,0,0,0.2);background:#33363b;content:""}#header .tabmenu{position:absolute;z-index:1;left:20px;right:321px;top:200px;overflow:hidden;margin:0;text-transform:capitalize}#header .tabmenu li{margin:0;font-weight:400}#header .tabmenu li:nth-of-type(1){margin-left:16px}#header .tabmenu li a{display:inline-block;height:50px;padding:0 15px;border:0;background:none;line-height:50px;color:rgba(255,255,255,.7);transition:.2s}#header .tabmenu li.selected a,#header .tabmenu li a:hover{background:rgba(0,0,0,.15);color:#fff}#header #header-bottom-right{position:absolute;z-index:1;top:250px;right:20px;width:300px;height:50px;border-radius:0;padding:0;text-align:center;background:#339999}.res #userbarToggle{position:absolute;z-index:1;top:-50px!important;right:0;left:auto!important;width:30px;border:0;background:none;text-align:center;line-height:46px;color:rgba(255,255,255,.7)}#header #header-bottom-right .beta-hint{display:none!important}#header-bottom-right .user{position:absolute;top:-50px;right:0;width:300px;height:50px;padding-right:30px;text-align:right;line-height:50px;font-size:larger;color:rgba(255,255,255,.7)}#header-bottom-right .user a{color:rgba(255,255,255,.7)}.res #RESAccountSwitcherIconOverlay{display:none!important}#header-bottom-right .separator{display:none!important}#header-bottom-right #mail,#header-bottom-right #modmail,#header-bottom-right .pref-lang,#header-bottom-right #openRESPrefs,#header-bottom-right .logout a{position:relative;top:0;display:inline-block;overflow:visible;vertical-align:top;margin:0;width:50px!important;height:50px;background:url(%%spritesheet%%);font-size:0}#header-bottom-right #mail.nohavemail,#header-bottom-right #mail.havemail{background-position:10px 5px}#header-bottom-right #modmail{background-position:-50px 5px}#header-bottom-right .pref-lang{background-position:-110px 5px}#header-bottom-right #openRESPrefs{background-position:-170px 5px}#header-bottom-right .logout a{background-position:-230px 5px}#header-bottom-right #mail:hover:before,#header-bottom-right #modmail:hover:before,#header-bottom-right .pref-lang:hover:before,#header-bottom-right #openRESPrefs:hover:before,#header-bottom-right .logout a:hover:before{position:absolute;top:-35px;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%);box-shadow:0 0 2px rgba(0,0,0,0.2);height:30px;border-radius:3px;padding:0 15px;background:#fff;line-height:30px;font-size:14px;font-weight:400;text-indent:0;white-space:nowrap;color:#666;pointer-events:none}#header-bottom-right #mail:hover:before{content:"Mail"}#header-bottom-right #modmail:hover:before{content:"Mod Mail"}#header-bottom-right .pref-lang:hover:before{content:"Preferences"}#header-bottom-right #openRESPrefs:hover:before{content:"RES Preferences"}#header-bottom-right .logout a:hover:before{content:"Logout"}#header-bottom-right #mail:hover:after,#header-bottom-right #modmail:hover:after,#header-bottom-right .pref-lang:hover:after,#header-bottom-right #openRESPrefs:hover:after,#header-bottom-right .logout a:hover:after{position:absolute;top:-5px;left:50%;margin-left:-10px;width:0;height:0;border:10px solid transparent;border-top-color:#fff;content:"";pointer-events:none}#header-bottom-right #mail.havemail{top:0!important;background-color:#d75d27}#header-bottom-right .havemail+a.message-count{position:fixed;z-index:2147483647;bottom:0;right:20px;width:300px;height:60px;margin:0;box-shadow:0 -5px 10px rgba(0,0,0,.1);border-top:1px solid #f9f9f9;background:#f0f0f0;line-height:60px;font-size:12px;color:#fff}#header-bottom-right .havemail+a.message-count:before{position:absolute;top:10px;left:10px;width:280px;height:40px;border-radius:3px;background:#d24d33;content:"";z-index:-1;transition:.1s}#header-bottom-right .havemail+a.message-count:after{content:" new message(s) in your inbox!"}#header-bottom-right #modmail.havemail{background-color:#d24d33}.res #RESMainGearOverlay,.res #RESSettingsButton.gearIcon{display:none!important}.res .RESDropdownList{position:absolute!important;display:hidden!important;overflow:hidden;top:280px!important;left:auto!important;right:20px!important;width:300px;max-height:0;border:0;border-radius:0;background:#3b8dbd;transition:.05s max-height}.res .RESDropdownList[style*="display: block"]{max-height:210px}.res .RESDropdownList a,.res .RESDropdownList a:visited,.res .RESDropdownList li{border:0;padding:0;background:none!important;text-indent:10px;color:#fff}.res.res-nightmode .RESDropdownList li,.res.res-nightmode .RESDropdownList li a{color:#fff!important}.res .RESDropdownList li:hover{background:rgba(0,0,0,.1)!important;color:#fff}.res .RESDropdownList li a:hover{background:none;color:#fff}.res #RESSearchMenuItem{right:25px;border:0;background-color:transparent!important}.res .moduleToggle .toggleOn,.res .toggleButton .toggleOn,.res .moduleToggle .toggleOff,.res .toggleButton .toggleOff{border:0;text-indent:0}.res .moduleToggle .toggleOn,.res .toggleButton .toggleOn{border-radius:9px 0 0 9px}.res .moduleToggle .toggleOff,.res .toggleButton .toggleOff{border-radius:0 9px 9px 0}.res .moduleToggle::before,.toggleButton::before{display:none}#header:before{position:absolute;overflow:hidden;left:20px;top:250px;width:150px;height:50px;text-align:center;line-height:50px;background:#82b965;content:"Announcement:";font-size:16px;color:#fff}#header:after,.side .md h1:nth-of-type(1){position:absolute;left:170px;right:320px;top:250px;overflow:hidden;margin:0;width:auto;height:50px;border-bottom:1px solid #eee;text-indent:20px;line-height:50px;background:#fff;content:"Add an h1 header to the sidebar and it'll show up here!";font-size:14px;font-weight:400;color:#aaa}.res-nightmode #header:after,.res-nightmode .side .md h1:nth-of-type(1),html[lang="nm"] #header:after,html[lang="nm"] .side .md h1:nth-of-type(1){border-bottom-color:rgba(0,0,0,.3);background:#1d1f22}.side .md h1:nth-of-type(1){z-index:100}.side .md h1:nth-of-type(1) a{color:#222}.res-nightmode .side .md h1:nth-of-type(1) a,html[lang="nm"] .side .md h1:nth-of-type(1) a{color:#fff}.side{margin:0;margin-right:20px;margin-bottom:60px;box-shadow:1px 0 1px rgba(0,0,0,0.1),0 1px 1px rgba(0,0,0,0.1);padding-top:200px;background:#e9e9e9}.res.res-nightmode .side,html[lang="nm"] .side{background:#18181b}.side .spacer{margin:0}.side .titlebox h1.redditname a{position:absolute;top:300px;margin-left:-10px;width:300px;height:60px;border-left:1px solid #eee;border-bottom:1px solid #ddd;padding-left:30px;background:#fff;line-height:60px;font-size:20px;font-weight:600;color:#3b8dbd}.res-nightmode .side .titlebox h1.redditname{border:0}.res-nightmode .side .titlebox h1.redditname a,html[lang="nm"] .side .titlebox h1.redditname a{border-left:1px solid rgba(0,0,0,.3);border-bottom:1px solid rgba(0,0,0,.5);background:#1d1f22}.side .morelink{width:290px;height:40px;border:0;background:#f0f0f0;line-height:40px;text-align:left;transition:.2s}.side .morelink a:before,.sidecontentbox a.helplink:before,.side .account-activity-box a:before{position:absolute;left:10px;top:10px;width:20px;height:20px;background:url(%%spritesheet%%) 0/359px 248.8px;content:"";pointer-events:none}.side .submit-link,.side .submit-text{position:absolute}.side .submit-link{top:370px}.side .submit-text{top:410px}.side .submit-link .morelink a:before{background-position:-246px -2px}.side .submit-text .morelink a:before{background-position:-266px -2px}.sidecontentbox a.helplink:before{background-position:-286px -2px}.side .submit-link .morelink:hover a:before{background-position:-246px -22px}.side .submit-text .morelink:hover a:before{background-position:-266px -22px}.sidecontentbox a.helplink:hover:before{background-position:-286px -22px}.side .morelink a{display:block;border-top:1px solid #f9f9f9;border-bottom:1px solid #ddd;border-right:1px solid #ddd;padding-left:40px;text-transform:lowercase;letter-spacing:0;font-size:16px;color:#339999;transition:0}.submit.mod-override .morelink a:after{display:none}.side .morelink:hover a,.sidecontentbox a.helplink:hover,.side .account-activity-box a:hover{color:#3b8dbd}.side .morelink .nub,.side .sidebox.submit.disabled{display:none}.sidecontentbox a.helplink{position:absolute;top:450px;right:30px;margin:0;width:290px;height:40px;border-top:1px solid #f9f9f9;border-bottom:1px solid #ddd;border-right:1px solid #ddd;padding-left:40px;background:#f0f0f0;line-height:40px;font-size:15px;font-weight:700;color:#339999}.res.res-nightmode .morelink,html[lang="nm"] .morelink,.res.res-nightmode .morelink:hover,html[lang="nm"] .morelink:hover,.res-nightmode .sidecontentbox a.helplink,html[lang="nm"] .sidecontentbox a.helplink,.res.res-nightmode .side .linkinfo,html[lang="nm"] .side .linkinfo,.res.res-nightmode .side .titlebox,html[lang="nm"] .side .titlebox,.res.res-nightmode .side .leavemoderator,.res.res-nightmode .side .leavecontributor-button,.res-nightmode .side .titlebox form.toggle.flairtoggle,.res.res-nightmode .sidecontentbox,html[lang="nm"] .sidecontentbox,.res.res-nightmode .login-form-side,html[lang="nm"] .login-form-side,.res-nightmode .side .account-activity-box a,html[lang="nm"] .side .account-activity-box a,.res-nightmode .footer.rounded .col:hover,html[lang="nm"] .footer.rounded .col:hover,.res-nightmode .footer.rounded .col ul.flat-vert.hover,html[lang="nm"] .footer.rounded .col ul.flat-vert.hover{background:#1b1c1f}.res.res-nightmode .morelink a,html[lang="nm"] .morelink a,.res-nightmode .sidecontentbox a.helplink,html[lang="nm"] .sidecontentbox a.helplink,.res.res-nightmode .side .linkinfo,html[lang="nm"] .side .linkinfo,.res.res-nightmode .side .titlebox,html[lang="nm"] .side .titlebox,.res.res-nightmode .sidecontentbox,html[lang="nm"] .sidecontentbox,.res.res-nightmode .login-form-side,html[lang="nm"] .login-form-side,.res-nightmode .side .account-activity-box a,html[lang="nm"] .side .account-activity-box a{border-top-color:rgba(255,255,255,.05);border-right-color:rgba(0,0,0,.3);border-bottom-color:rgba(0,0,0,.3);color:#339999}.res.res-nightmode .side .titlebox .md,html[lang="nm"] .side .titlebox .md{color:#777}.res.res-nightmode .morelink a:hover,html[lang="nm"] .morelink a:hover,.res-nightmode .sidecontentbox a.helplink:hover,html[lang="nm"] .sidecontentbox a.helplink:hover,.res-nightmode .side .account-activity-box a:hover,html[lang="nm"] .side .account-activity-box a:hover{color:#3b8dbd}#ad_sponsorship{margin-bottom:5px}#ad_main{margin-top:10px}.side .titlebox{border-top:1px solid #f9f9f9;border-bottom:1px solid #ddd;padding:10px;padding-top:0;background:#f0f0f0;font-size:12px;color:#aaa}.side .titlebox h1{margin:0}.res-nightmode .side .titlebox h1.redditname+div,html[lang="nm"] .side .titlebox h1.redditname+div,.res-nightmode .side .titlebox h1.redditname+div:hover:after,html[lang="nm"] .side .titlebox h1.redditname+div:hover:after,.res-nightmode .side .fancy-toggle-button,html[lang="nm"] .side .fancy-toggle-button,.res.res-nightmode .side .RESshortcutside,html[lang="nm"] .side .RESshortcutside,.res.res-nightmode .side .RESDashboardToggle,html[lang="nm"] .side .RESDashboardToggle,.res-nightmode .titlebox form.toggle,html[lang="nm"] .titlebox form.toggle,.res-nightmode .leavemoderator,html[lang="nm"] .leavemoderator{border-color:rgba(0,0,0,.3)!important}.side .titlebox h1.redditname+div{border-bottom:1px solid #e4e4e4;padding:10px}.side .fancy-toggle-button{margin:0;width:100%;border-bottom:1px solid #e4e4e4;padding-top:10px;padding-bottom:10px}.hover-bubble.multi-selector label a{width:14px;height:14px;border-radius:50%;color:gray}.hover-bubble.anchor-right:before{display:none}.side .fancy-toggle-button.toggle .option.active,.res .RESSubscriptionButton{display:inline-block;vertical-align:middle;width:auto;height:25px;border:0!important;padding:0 10px;text-align:center;text-transform:capitalize;line-height:25px;color:#fff}.side .fancy-toggle-button .add,.res .RESSubscriptionButton{background:#82b965;transition:.2s}.side .fancy-toggle-button.toggle .remove,.res .RESSubscriptionButton.unsubscribe{background:#d0d0d0;color:#fff;transition:.2s}.btn:not(.gold-button):not(.close-button):hover,button:not(.gold-button):not(.close-button):hover,#header-bottom-right a.message-count:hover:before,.side .fancy-toggle-button .option.add:hover,.titlebox form.toggle.flairtoggle + .tagline a.flairselectbtn:hover,.md a[href="#redbutton"] + a:hover,.md a[href="#greenbutton"] + a:hover,.md a[href="#bluebutton"] + a:hover,.md a[href="#graybutton"] + a:hover,body .thing .tagline .author.submitter:hover,body .thing .tagline .author.moderator:hover,body .thing .tagline .author.admin:hover,.pretty-button:hover,.pretty-button.pressed,.res .RESSubscriptionButton:not(.unsubscribe):hover,#NERFail .nextprev a:hover{background:#444!important}.side .subscribers,.side .users-online{display:block;float:right;height:22.5px}.side .subscribers{margin-top:-40px}.side .users-online{margin-top:-22px}.res .side .subscribers{margin-top:-65px}.res .side .users-online{margin-top:-47px}.side .titlebox .word{display:none}.side .subscribers .number:after{content:" subscribed"}.side .users-online .number:after{content:" online now"}.side .users-online:before{display:none}.res .side .RESshortcutside,.res .side .RESDashboardToggle{display:inline-block;margin:0;width:140px;height:25px;border:0;border-bottom:1px solid #e4e4e4;border-radius:0;background:none!important;line-height:23px;font-size:12px;font-weight:400;color:#aaa;transition:.1s}.res .side .RESshortcutside{border-right:1px solid #e4e4e4}.titlebox form.toggle,.leavemoderator{position:relative;border-bottom:1px solid #e4e4e4;padding:10px;padding-left:32px;background:none;text-transform:lowercase;font-size:12px;color:#aaa;transition:.1s}form.toggle.sr_style_toggle{border-bottom:0}form.toggle.flairtoggle{border-top:1px solid #e4e4e4}.leavemoderator a,.leavecontributor-button a.togglebutton{position:absolute;left:0;top:0;width:100%;height:100%;font-size:0}.titlebox form input[type=checkbox]{display:none}.titlebox .leavemoderator:before,.moderator.toggle .main:before,.titlebox form.leavecontributor-button:before,.titlebox form input[type=checkbox] + label:before{position:absolute;left:10px;top:50%;margin-top:-6px;width:12px;height:12px;border-radius:50%;border:3px solid #aaa;background:#fff;content:"";transition:.1s}.res-nightmode .titlebox .leavemoderator:before,html[lang="nm"] .titlebox .leavemoderator:before,.res-nightmode .moderator.toggle .main:before,html[lang="nm"] .moderator.toggle .main:before,.res-nightmode .titlebox form.leavecontributor-button:before,html[lang="nm"] .titlebox form.leavecontributor-button:before,.res-nightmode .titlebox form input[type=checkbox] + label:before,html[lang="nm"] .titlebox form input[type=checkbox] + label:before{border-color:#333}.titlebox form input[type=checkbox]:not(:checked) + label:before{background:#aaa}.leavemoderator:after,.leavecontributor-button .option.main.active:after{position:relative;left:-8px;top:2px;display:inline-block;width:8px;height:12px;background:#f0f0f0;content:"";transition:.1s}.leavecontributor-button span.option.error.active{font-size:12px;color:#d24d33}.titlebox form.toggle.flairtoggle + .tagline{position:relative;margin:0;padding:10px 10px 15px 32px;font-size:0;transition:.1s}.titlebox form.toggle.flairtoggle+.tagline a.author{margin-right:15px}.titlebox form.toggle.flairtoggle + .tagline .flair,.titlebox form.toggle.flairtoggle + .tagline a{font-size:12px}.titlebox form.toggle.flairtoggle + .tagline a.flairselectbtn{position:relative;display:inline-block;height:25px;border-radius:3px;padding:0 10px;background:#82b965;line-height:25px;font-size:10px;font-weight:700;color:#fff;transition:.1s}.titlebox form.toggle.flairtoggle + .tagline a.flairselectbtn:before{position:absolute;left:-8px;top:4.5px;width:0;height:0;border:8px solid transparent;border-right-color:#82b965;border-left:0;content:"";transition:.1s}.titlebox form.toggle.flairtoggle + .tagline a.flairselectbtn:hover:before{border-right-color:#444}.titlebox form.toggle.flairtoggle + .tagline a.flairselectbtn:after{content:" my flair"}.titlebox form.toggle.flairtoggle + .tagline .flair ~ a.flairselectbtn:before{display:none}.titlebox form.toggle.flairtoggle + .tagline .flair ~ a.flairselectbtn{background:#d0d0d0!important}.res-nightmode .titlebox form.toggle.flairtoggle + .tagline .flair ~ a.flairselectbtn:before,html[lang="nm"] .titlebox form.toggle.flairtoggle + .tagline .flair ~ a.flairselectbtn:before{border-right-color:#333}.res-nightmode .titlebox form.toggle.flairtoggle + .tagline .flair ~ a.flairselectbtn,html[lang="nm"] .titlebox form.toggle.flairtoggle + .tagline .flair ~ a.flairselectbtn{background:#333!important}.titlebox form.toggle.flairtoggle + .tagline .flairselector.drop-choices.active{left:auto!important;right:-10px!important;top:100%!important;margin-top:8px;width:300px!important}.flairselector ul{margin-left:30px;margin-right:30px;width:calc(100% - 60px);max-width:none;text-align:center}.flairselector ul li{width:100%;border:0;padding:5px 0;text-align:center!important}.flairselector li.selected,.flairselector ul li:hover{border:0;background:rgba(0,0,0,.05)}.flair,.linkflairlabel{vertical-align:middle;border:0;background:#f2f2f2;font-size:12px!important;color:#999}.flair{padding:0 2px}.linkflairlabel{height:20px;padding:0 10px;line-height:20px}.title .linkflairlabel{vertical-align:top;margin-right:8px;margin-bottom:5px}.flair-red,.linkflair-red .title .linkflairlabel,.flairoptionpane .linkflair-red .linkflairlabel{background:#d24d33;color:#fff}.flair-orange,.linkflair-orange .title .linkflairlabel,.flairoptionpane .linkflair-orange .linkflairlabel{background:#ffb263;color:#fff}.flair-yellow,.linkflair-yellow .title .linkflairlabel,.flairoptionpane .linkflair-yellow .linkflairlabel{background:#f6e69f;color:rgba(0,0,0,.5)}.flair-green,.linkflair-green .title .linkflairlabel,.flairoptionpane .linkflair-green .linkflairlabel{background:#82b965;color:#fff}.flair-blue,.linkflair-blue .title .linkflairlabel,.flairoptionpane .linkflair-blue .linkflairlabel{background:#3b8dbd;color:#fff}.flair-ball,.flair-heart,.flair-cone,.flair-bell,.flair-lightbulb,.flair-trophy,.flair-tree,.flair-dolphin,.flair-rocket,.flair-cake{padding:0;padding-left:5px;background:none!important}.res.res-nightmode .flair-ball,.res.res-nightmode .flair-heart,.res.res-nightmode .flair-cone,.res.res-nightmode .flair-bell,.res.res-nightmode .flair-lightbulb,.res.res-nightmode .flair-trophy,.res.res-nightmode .flair-tree,.res.res-nightmode .flair-dolphin,.res.res-nightmode .flair-rocket,.res.res-nightmode .flair-cake{color:#fff}.flair-ball:before,.flair-heart:before,.flair-cone:before,.flair-bell:before,.flair-lightbulb:before,.flair-trophy:before,.flair-tree:before,.flair-dolphin:before,.flair-rocket:before,.flair-cake:before{display:inline-block;vertical-align:top;margin-right:5px;width:20px;height:20px;background:url(%%spritesheet%%) 0/359px 248.8px;content:""}.flair-ball:before{background-position:-2px -202.8px}.flair-heart:before{background-position:-22px -202.8px}.flair-cone:before{background-position:-42px -202.8px}.flair-bell:before{background-position:-62px -202.8px}.flair-lightbulb:before{background-position:-82px -202.8px}.flair-trophy:before{background-position:-102px -202.8px}.flair-tree:before{background-position:-122px -202.8px}.flair-dolphin:before{background-position:-142px -202.8px}.flair-rocket:before{background-position:-162px -202.8px}.flair-cake:before{background-position:-182px -202.8px}.res .RESshortcutside:hover,.res .RESDashboardToggle:hover,.titlebox form.toggle:hover,.leavemoderator:hover,.leavemoderator:hover:after,.leavecontributor-button .option.main.active:hover:after{background:#e6e6e6!important;color:#777}.res-nightmode .leavemoderator:after,html[lang="nm"] .leavemoderator:after,.res-nightmode .leavecontributor-button .option.main.active:after,html[lang="nm"] .leavecontributor-button .option.main.active:after{background:#1b1c1f}.res.res-nightmode .RESshortcutside:hover,html[lang="nm"] .RESshortcutside:hover,.res.res-nightmode .RESDashboardToggle:hover,html[lang="nm"] .RESDashboardToggle:hover,.res-nightmode .titlebox form.toggle:hover,html[lang="nm"] .titlebox form.toggle:hover,.res-nightmode .leavemoderator:hover,html[lang="nm"] .leavemoderator:hover,.res-nightmode .leavemoderator:hover:after,html[lang="nm"] .leavemoderator:hover:after,.res-nightmode .leavecontributor-button .option.main.active:hover:after,html[lang="nm"] .leavecontributor-button .option.main.active:hover:after{background:#222327!important;color:#fff}.titlebox form.toggle:hover label:before,.titlebox form.leavecontributor-button:hover:before,.leavemoderator:hover:before{border-color:#777}.titlebox form:hover input[type=checkbox]:not(:checked) + label:before{background:#777}.side .titlebox form.toggle.sr_style_toggle,.side .titlebox form.toggle.flairtoggle,.side .titlebox form.toggle.sr_style_toggle input[type=checkbox],.side .titlebox form.toggle.flairtoggle input[type=checkbox],.side .titlebox form.toggle.sr_style_toggle label,.side .titlebox form.toggle.flairtoggle label{cursor:pointer!important}.side .usertext:before{display:block;margin:0 -10px 10px;height:12px;border-top:1px solid #ddd;border-bottom:1px solid #f9f9f9;background:#e9e9e9;content:""}.side .usertext{color:#777}a[href="#redbutton"] + a,a[href="#greenbutton"] + a,a[href="#bluebutton"] + a,a[href="#graybutton"] + a{display:block;padding:10px;border-radius:3px;text-align:center;font-weight:700;color:#fff!important;transition:.1s}.md a[href="#redbutton"] + a{background:#d24d33}.md a[href="#greenbutton"] + a{background:#82b965}.md a[href="#bluebutton"] + a{background:#3b8dbd}.md a[href="#graybutton"] + a{background:gray}.side .md h2{padding:0;text-transform:uppercase;font-size:15px;font-weight:400;color:#444}.res.res-nightmode .side .md ul{background:none}.side .md hr{margin:10px -10px;height:12px;border-top:1px solid #ddd;border-bottom:1px solid #f9f9f9;background:#e9e9e9}.res-nightmode .side .md hr,html[lang="nm"] .side .md hr,.res-nightmode .side .usertext:before,html[lang="nm"] .side .usertext:before{border-top-color:rgba(0,0,0,.3);border-bottom-color:rgba(255,255,255,.05);background:#18181b}.titlebox .bottom{border-color:#e4e4e4;padding-top:10px}.res-nightmode .bottom,html[lang="nm"] .bottom{border-color:rgba(0,0,0,.3)}.titlebox .bottom .flair{display:none}.sidecontentbox{margin-top:10px}.login-form-side{margin-bottom:10px}.sidecontentbox,.login-form-side{border:0;border-top:1px solid #f9f9f9;border-bottom:1px solid #ddd;padding:10px;background:#f0f0f0;color:#aaa}.sidecontentbox .title h1{border:0!important;font-size:15px;font-weight:400;color:#444}.sidecontentbox .collapse-button{display:none}.sidecontentbox .content{border:0;background:transparent!important}.sidecontentbox a.helplink~.content li{padding:2px 0;white-space:nowrap}.sidecontentbox a,html[lang="aa"] .sidecontentbox a{color:#444}.sidecontentbox a:hover{color:#3b8dbd}.icon-menu a{background:none!important}.sidecontentbox .content small{font-size:0}.sidecontentbox .content small span.score{margin:0}.sidecontentbox .content small span.score:after{content:"…"}.sidecontentbox .content small span.score,.sidecontentbox .content small a.reddit-comment-link{font-size:12px;font-weight:400;color:#aaa}.sidebox.create{display:none}.side .sidecontentbox .expando{display:none}.side .account-activity-box{padding-top:10px;padding-bottom:10px}.side .account-activity-box a{display:block;position:relative;width:290px;height:40px;border-top:1px solid #f9f9f9;border-bottom:1px solid #ddd;border-right:1px solid #ddd;padding-left:40px;background:#f0f0f0;line-height:40px;text-align:left;font-size:15px;font-weight:700;color:#777}.side .account-activity-box a:before{background-position:-306px -2px}.side .account-activity-box a:hover:before{background-position:-306px -22px}html body>.content[role="main"]{margin:0 320px 0 20px;box-shadow:-1px 1px 1px rgba(0,0,0,0.1);background:#fff}.res.res-nightmode>.content,html[lang="nm"] body>.content{background:#1d1f22}body>.content>.spacer,.infobar.newsletterbar{margin:0;border-radius:0}.menuarea{margin:0;border-bottom:1px solid #eee;padding:10px}.res-nightmode .commentarea .panestack-title,html[lang="nm"] .commentarea .panestack-title,.res-nightmode .commentarea>form.usertext,html[lang="nm"] .commentarea>form.usertext{border-color:rgba(0,0,0,.3)}.menuarea .dropdown.lightdrop .selected{padding:0;background:none}body>.content>.spacer>.organic-listing{margin:0;border:0}body>.content>.spacer>.organic-listing .entry:before,.side .link .entry:before,.side .link .thumbnail,.side .link .score{display:none!important}.link,.link.promotedlink.promoted,.link.last-clicked,.res .res-nightmode .linklisting .link{position:relative;overflow:visible;margin:0;border:0;border-left:150px solid #f0f0f0;border-bottom:1px solid #eee;padding:0!important}.thing.banned-user{overflow:visible}.res .res-nightmode .linklisting .link,html[lang="nm"] .link{border-left-color:#1b1c1f;border-bottom-color:rgba(0,0,0,.3);background:#1d1f22!important}.nav-buttons{padding:10px}.nextprev a,.nextprev a:hover{border:0;background:none}.link.promotedlink.promoted,.res #progressIndicator,.res .NERPageMarker,.res #NERFail{background:#f9f9f9}.res #progressIndicator h2,.res #progressIndicator.neverEndingReddit p{margin-bottom:20px}.res .RESThrobber,.res .RESThrobber::before,.res .RESThrobber::after{box-shadow:none!important;width:30px!important;height:5px!important;border-radius:0!important;background:#ddd!important;-webkit-animation:RESThrobber2 1400ms 400ms infinite linear!important;animation:RESThrobber2 1400ms 400ms infinite linear!important}@-webkit-keyframes RESThrobber2{30%{background:#3b8dbd}70%{background:#3b8dbd}}@keyframes RESThrobber2{30%{background:#3b8dbd}70%{background:#3b8dbd}}.res .RESThrobber:before{-moz-animation-delay:200ms!important;-webkit-animation-delay:200ms!important;animation-delay:200ms!important}.res .RESThrobber:after{-moz-animation-delay:600ms!important;-webkit-animation-delay:600ms!important;animation-delay:600ms!important}.side .link{border-left:0}.link .rank{display:none}.link:before,.link .thumbnail{position:absolute;left:-70px;top:10px;width:60px;height:60px;border-radius:3px;background:url(%%spritesheet%%) 0/538px 373.2px;content:""}.link .thumbnail img{position:absolute;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%);width:auto!important;height:100%!important}.link .thumbnail.nsfw{background-color:#d24d33;background-position:12px -54px}.link .thumbnail.self{background-color:#e1e1e1;background-position:-48px -54px}.link:before,.link .thumbnail.default{background-color:#e1e1e1;background-position:-108px -54px}.link.stickied .thumbnail{background-color:#82b965;background-position:-168px -54px}.link.stickied .thumbnail img{display:none}.res-nightmode .link .thumbnail.self,html[lang="nm"] .link .thumbnail.self{background-color:#313235}body >.content[role="main"] .link .midcol{position:absolute;left:-138px;top:10px;overflow:visible;margin:0;width:60px;height:60px}.side .gadget .midcol{width:35px}.midcol .arrow,.res.res-nightmode .arrow{margin:0;width:20px!important;height:30px!important;border-radius:3px 3px 0 0}.midcol .arrow{position:relative;background:#e1e1e1}.link .midcol .arrow{position:absolute;margin:0}.side .midcol .arrow.up,.side .midcol .arrow.upmod{margin-bottom:3px}.res .res.res-nightmode .arrow,.res .res.res-nightmode .arrow:hover{background-image:none!important}.midcol .arrow:before{position:absolute;left:4px;bottom:50%;width:12px;height:12px;border:6px solid transparent;border-bottom-color:rgba(0,0,0,.15);content:""}.midcol .arrow:after{position:absolute;left:7px;top:50%;width:6px;height:6px;background:rgba(0,0,0,.15);content:""}.midcol .arrow.up,.res.res-nightmode .arrow.up,.res.res-nightmode .arrow.up:hover{right:0;top:0}.link .midcol .arrow.down{right:0;top:30px}.midcol .arrow.down,.res.res-nightmode .arrow.down,.res.res-nightmode .arrow.down:hover{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);transform:rotate(180deg)}.midcol .arrow.upmod{right:0;top:0;background:#fff}.res.res-nightmode .arrow.upmod,.res.res-nightmode .arrow.downmod,html[lang="nm"] .arrow.upmod,html[lang="nm"] .arrow.downmod{background:rgba(255,255,255,.3)!important}.midcol .arrow.upmod:before,.res.res-nightmode .arrow.upmod:before{border-bottom-color:#ff8b60}.midcol .arrow.upmod:after,.res.res-nightmode .arrow.upmod:after{background:#ff8b60}.midcol .arrow.downmod,.res.res-nightmode .arrow.downmod{right:0;bottom:0;-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);transform:rotate(180deg);background:#fff}.midcol .score{position:absolute;top:0;left:-3px;width:36px;height:60px;border-radius:3px;line-height:60px;background:rgba(0,0,0,.2);color:#fff!important}.res.res-nightmode .arrow.up,.res.res-nightmode .arrow.up:hover,.res.res-nightmode .arrow.down,.res.res-nightmode .arrow.down:hover,.res.res-nightmode .midcol .score,html[lang="nm"] .arrow.up,html[lang="nm"] .arrow.up:hover,html[lang="nm"] .arrow.down,html[lang="nm"] .arrow.down:hover,html[lang="nm"] .midcol .score{background-color:rgba(255,255,255,.1)!important}.link .entry{overflow:visible;margin:0;padding:10px;padding-left:25px;transition:.2s}.entry{margin-left:0}.link .entry:before{position:absolute;left:10px;top:10px;bottom:10px;width:3px;height:auto;background:#ddd;content:"";transition:.2s}.link:hover .entry:before{background:#ccc}.res .link .entry.RES-keyNav-activeElement{background-color:transparent!important}.res .link .entry.RES-keyNav-activeElement:before,.res.res-nightmode .link .entry.RES-keyNav-activeElement:before,html[lang="nm"] .res .link .entry.RES-keyNav-activeElement:before{background:#3b8dbd}.res-nightmode .link .entry:before,html[lang="nm"] .link .entry:before{background:rgba(0,0,0,.5)}.res-nightmode .link:hover .entry:before,html[lang="nm"] .link:hover .entry:before{background:rgba(0,0,0,.3)}.link.thing .entry .title{margin-bottom:3px;color:#444;transition:.2s}html[lang="nm"] .link.thing .entry .title,.link.thing .entry .title:visited{color:gray}.link.thing .entry .title:hover,html[lang="nm"] .link.thing .entry .title:hover{color:#3b8dbd}.thing.stickied.link a.title,.thing.stickied.link a.title:visited,.thing.stickied.link a.title.visited{color:#82b965}.expando-button,.res .res-nightmode .thing .expando-button{margin:0!important;margin-left:6px!important;margin-right:6px!important;width:30px!important;height:30px!important;max-width:30px!important;max-height:none!important;border-radius:3px;background:#ccc url(%%spritesheet%%) no-repeat 0/359px 248.8px!important;transition:.2s}.entry .title+.expando-button,.res-nightmode .entry .title+.expando-button{margin-left:0!important}body .expando-button.selftext,.res .res-nightmode .thing .expando-button.selftext{background-position:3px -222px!important;vertical-align:middle!important}body .expando-button.video,.res .res-nightmode .thing .expando-button.video{background-position:-37px -222px!important;vertical-align:middle!important}body .expando-button.image,.res .res-nightmode .thing .expando-button.image{background-position:-77px -222.5px!important;vertical-align:middle!important}body .expando-button.image.gallery,.res .res-nightmode .thing .expando-button.gallery{background-position:-117px -222px!important;vertical-align:middle!important}body .expando-button.video-muted,.res .res-nightmode .thing .expando-button.video-muted{background-position:-157px -222px!important;vertical-align:middle!important}.expando-button:hover{background-color:#ababab!important}.res.res-nightmode .side .fancy-toggle-button.toggle .remove,html[lang="nm"] .side .fancy-toggle-button.toggle .remove,.res.res-nightmode .RESSubscriptionButton.unsubscribe,html[lang="nm"] .RESSubscriptionButton.unsubscribe,.res.res-nightmode .thing .expando-button,html[lang="nm"] .thing .expando-button{border:0;background-color:#333!important}.link .tagline,.entry .buttons li a,.entry .buttons li b,.res .redditSingleClick{font-size:12px;font-weight:400;color:#bbb;transition:.2s}.entry .buttons li{position:relative}body .thing .tagline .author.submitter,body .thing .tagline .author.moderator,body .thing .tagline .author.admin{border-radius:3px;padding:0 2px;font-size:12px;font-weight:400;color:#fff;transition:.1s}body .thing .tagline .author.submitter{background:#3b8dbd!important}body .thing .tagline .author.moderator{background:#339999!important}body .thing .tagline .author.admin{background:#d24d33!important}.tagline .userattrs{font-size:0}.tagline .userattrs a.submitter,.tagline .userattrs a.moderator,.tagline .userattrs a.admin{display:inline-block;overflow:hidden;max-width:15px;border-radius:3px;white-space:nowrap;font-size:12px;color:#fff!important;transition:.2s}.tagline .userattrs a.submitter{background:#3b8dbd;padding:0 4px}.tagline .userattrs a.moderator{background:#82b965;padding:0 2px}.tagline .userattrs a.admin{background:#d24d33;padding:0 4px}.tagline .userattrs a.submitter:hover,.tagline .userattrs a.moderator:hover,.tagline .userattrs a.admin:hover{max-width:200px}.tagline .userattrs a.submitter:after,.tagline .userattrs a.moderator:after,.tagline .userattrs a.admin:after{display:inline-block;margin-left:3px;transition:.2s}.tagline .userattrs a.submitter:after{content:"ubmitter"}.tagline .userattrs a.moderator:after{content:"oderator – speaking officially"}.tagline .userattrs a.admin:after{content:"dmin – speaking officially"}.tagline .userattrs a.submitter:hover:after,.tagline .userattrs a.moderator:hover:after,.tagline .userattrs a.admin:hover:after{margin-left:0}.tagline .stickied-tagline{color:#82b965}.link form.state-button{font-size:12px}.flairselector.drop-choices.active,.drop-choices,.hover-bubble{box-shadow:0 0 25px rgba(0,0,0,.2);border:0}.drop-choices.lightdrop{margin-top:15px}.drop-choices a.choice{padding:5px 10px;color:#999}.drop-choices a.choice:hover{background:none;color:#666}.link .flairselector.drop-choices.active{left:50%!important;top:37.5px!important;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%)}.flairselector.drop-choices.active:before,.drop-choices:before{position:absolute;top:-15px;left:50%;margin-left:-15px;width:0;height:0;border:15px solid transparent;border-top:0;border-bottom-color:#fff;content:""}.flairselector h2{background:none;color:#777}.flairselector a.title{display:none}.flairselector form{border-color:#e4e4e4}body .entry .buttons li.reported-stamp,.pretty-button{height:18px;border:0!important;padding:0 5px;line-height:18px;transition:.1s}.pretty-button,.pretty-button:hover{color:#fff}.pretty-button.negative{background:#d24d33}.pretty-button.positive{background:#82b965}.pretty-button.neutral{background:#d0d0d0}ul.report-reasons.rounded{border:0;border-radius:3px}.link .usertext-body .md{border:0;border-top:1px solid #eee;border-radius:0;background:none}.res.res-nightmode .RES-keyNav-activeElement .usertext-body .md{background:none!important}html[lang="nm"] .link .usertext-body .md{border-top:1px solid rgba(255,255,255,0.05);color:#fff}.link .usertext-body .md>p>a[href="#dropcap"]{display:block;float:left;margin:0 10px 0 0;line-height:.75em;font-size:94px;font-weight:600;color:#444;pointer-events:none}.link .usertext-body .md>p>a[href="#dropcap"]+.keyNavAnnotation{display:none}.md ul{list-style-type:square}.res #progressIndicator,.res .NERPageMarker,.res #NERFail{margin:0;width:100%;border:0;border-radius:0}.res .NERPageMarker{border-bottom:1px solid #eee}textarea,.pretty-form input[type=text],.roundfield input{box-shadow:none!important;border:2px solid #ddd!important;border-radius:0;background:#fff;color:#777}.res-nightmode textarea,html[lang="nm"] textarea,.res-nightmode .pretty-form input[type=text],html[lang="nm"] .pretty-form input[type=text],.res-nightmode .roundfield input
@@ -654,11 +724,11 @@ left:130px;
 /* Activism Badges */
 .flair[class*="flair-medal"]:before {
     position: absolute;
-    top: -3px;
+    top: -1px;
     left: 25px;
-    color: black;
-    background: #F7F7F7;
-    border: 1px outset #F7F7F7;
+    color: #F7F7F7;
+    background: #BC3F41;
+    border: 1px solid rgba(4,36,62,.7);
     padding: 0 .3em;
     border-radius: 50%;
     overflow: hidden;
@@ -674,37 +744,35 @@ left:130px;
     border-radius: 3px;
 }
 .flair-medal-1:before {
-    /*content: 'Activism Rank  1';*/
-    background-image: url(%%Cizek%%)
-    background-size: cover;
-    /*background: #f1c40f !important;*/
-    border: 1px outset #f1c40f !important;
-    padding-right: .4em !important;
-
+    content: 'Minuteman';
 }
 .flair-medal-2:before {
-    content: 'Activism Rank  2';
+    content: 'Militiaman';
 }
 .flair-medal-3:before {
-    content: 'Activism Rank  3';
+    content: 'Soldier';
 }
 .flair-medal-4:before {
-    content: 'Activism Rank  4';
+    content: 'Cavalry';
 }
 .flair-medal-5:before {
-    content: 'Activism Rank  5';
+    content: 'Admiral';
 }
 .flair-medal-6:before {
-    content: 'Activism Rank  6';
+    content: 'Continental';
 }
 .flair-medal-7:before {
-    content: 'Activism Rank  7';
+    content: 'Patriot';
 }
 .flair-medal-8:before {
-    content: 'Activism Rank  8';
+    content: 'Son of Liberty';
 }
 .flair-medal-9:before {
-    content: 'Activism Rank  9';
+    content: 'Marquis de Sandersette';
+}
+
+.flair-medal-gb:before {
+    content: "General George Bernieston"
 }
 
 /* Custom Flairs */
@@ -718,7 +786,7 @@ left:130px;
 .flair.flair-VIP {
     transform: scale(1.00, 1.00);
     transform: translateY(-3px);
-    width:90px;
+    width:auto;
     height: 100%;
     background: #339999;
     color: #FFFFFF;
@@ -861,72 +929,6 @@ div.side a[href*="https://secure.actblue.com/contribute/page/the-politicalrevolu
 }
 
 
-/* Random Username Color */
-.tagline .author[href*="user/a"] {background: rgb(18,41,114);}
-.tagline .author[href*="user/b"] {background: rgb(105,78,4);}
-.tagline .author[href*="user/c"] {background: rgb(118,113,24);}
-.tagline .author[href*="user/d"] {background: rgb(41,95,101);}
-.tagline .author[href*="user/e"] {background: rgb(80,49,21);}
-.tagline .author[href*="user/f"] {background: rgb(56,121,4);}
-.tagline .author[href*="user/g"] {background: rgb(54,115,30);}
-.tagline .author[href*="user/h"] {background: rgb(51,56,110);}
-.tagline .author[href*="user/i"] {background: rgb(101,96,84);}
-.tagline .author[href*="user/j"] {background: rgb(27,16,109);}
-.tagline .author[href*="user/k"] {background: rgb(112,35,22);}
-.tagline .author[href*="user/l"] {background: rgb(98,13,101);}
-.tagline .author[href*="user/m"] {background: rgb(102,3,87);}
-.tagline .author[href*="user/n"] {background: rgb(127,45,55);}
-.tagline .author[href*="user/o"] {background: rgb(100,125,104);}
-.tagline .author[href*="user/p"] {background: rgb(122,53,98);}
-.tagline .author[href*="user/q"] {background: rgb(126,108,86);}
-.tagline .author[href*="user/r"] {background: rgb(29,32,14);}
-.tagline .author[href*="user/s"] {background: rgb(11,5,111);}
-.tagline .author[href*="user/t"] {background: rgb(96,33,0);}
-.tagline .author[href*="user/u"] {background: rgb(78,17,35);}
-.tagline .author[href*="user/v"] {background: rgb(101,116,48);}
-.tagline .author[href*="user/w"] {background: rgb(74,91,52);}
-.tagline .author[href*="user/x"] {background: rgb(34,90,97);}
-.tagline .author[href*="user/y"] {background: rgb(90,63,94);}
-.tagline .author[href*="user/z"] {background: rgb(67,57,20);}
-.tagline .author[href*="user/A"] {background: rgb(38,56,0);}
-.tagline .author[href*="user/B"] {background: rgb(124,86,33);}
-.tagline .author[href*="user/C"] {background: rgb(11,98,39);}
-.tagline .author[href*="user/D"] {background: rgb(122,66,72);}
-.tagline .author[href*="user/E"] {background: rgb(123,16,89);}
-.tagline .author[href*="user/F"] {background: rgb(30,117,78);}
-.tagline .author[href*="user/G"] {background: rgb(79,64,41);}
-.tagline .author[href*="user/H"] {background: rgb(3,99,4);}
-.tagline .author[href*="user/I"] {background: rgb(100,62,67);}
-.tagline .author[href*="user/J"] {background: rgb(66,1,125);}
-.tagline .author[href*="user/K"] {background: rgb(86,39,54);}
-.tagline .author[href*="user/L"] {background: rgb(87,36,12);}
-.tagline .author[href*="user/M"] {background: rgb(121,47,110);}
-.tagline .author[href*="user/N"] {background: rgb(32,42,49);}
-.tagline .author[href*="user/O"] {background: rgb(104,37,65);}
-.tagline .author[href*="user/P"] {background: rgb(66,67,55);}
-.tagline .author[href*="user/Q"] {background: rgb(16,19,120);}
-.tagline .author[href*="user/R"] {background: rgb(58,22,91);}
-.tagline .author[href*="user/S"] {background: rgb(62,122,26);}
-.tagline .author[href*="user/T"] {background: rgb(2,61,27);}
-.tagline .author[href*="user/U"] {background: rgb(0,20,67);}
-.tagline .author[href*="user/V"] {background: rgb(54,108,104);}
-.tagline .author[href*="user/W"] {background: rgb(66,101,23);}
-.tagline .author[href*="user/X"] {background: rgb(49,5,65);}
-.tagline .author[href*="user/Y"] {background: rgb(98,110,103);}
-.tagline .author[href*="user/Z"] {background: rgb(36,48,42);}
-.tagline .author[href*="user/0"] {background: rgb(92,65,61);}
-.tagline .author[href*="user/1"] {background: rgb(84,124,84);}
-.tagline .author[href*="user/2"] {background: rgb(48,58,79);}
-.tagline .author[href*="user/3"] {background: rgb(74,61,12);}
-.tagline .author[href*="user/4"] {background: rgb(102,61,33);}
-.tagline .author[href*="user/5"] {background: rgb(42,115,13);}
-.tagline .author[href*="user/6"] {background: rgb(18,54,114);}
-.tagline .author[href*="user/7"] {background: rgb(41,104,120);}
-.tagline .author[href*="user/8"] {background: rgb(107,75,102);}
-.tagline .author[href*="user/9"] {background: rgb(82,112,23);}
-.tagline .author {color: #FFFFFF;}
-
-
  /* Table in sidebar */
 .side .titlebox .md th {
 	padding-left: 5px;
@@ -1021,6 +1023,11 @@ div.side a[href*="https://secure.actblue.com/contribute/page/the-politicalrevolu
 /*Party Affiliation Colored Comments*/
 .res.res-nightmode a[href$="?Democrat"], .res.res-nightmode a[href$="?Republican"], .res.res-nightmode a[href$="?Independent"], .res.res-nightmode a[href$="?Progressive"], .res.res-nightmode a[href$="?PPD"], .res.res-nightmode a[href$="?Nonpartisan"], .res.res-nightmode a[href$="?Libertarian"], .res.res-nightmode a[href$="?Green"], .res.res-nightmode a[href$="?Socialist"] {
     color: #F0FFF0;
+}
+
+a[href$="?n"]:after {
+    content: " ";
+    display: block;
 }
 
 a[href$="?Democrat"] {
@@ -1137,7 +1144,7 @@ a[href*="?Socialist"] {
 #new_modmail.havemail {background-color:#82b965;}
 #new_modmail:hover:before {position:absolute;top:-35px;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%);box-shadow:0 0 2px rgba(0,0,0,0.2);height:30px;border-radius:3px;padding:0 15px;background:#fff;line-height:30px;font-size:14px;font-weight:400;text-indent:0;white-space:nowrap;color:#666;pointer-events:none;content: "New Mod Mail";}
 
-/*WIKI & TOC ADJUSTMENTS */
+/* Wiki & TOC Adjustments */
 
 .wiki-page .wiki-page-content .wiki>.toc{
     background: #04243E!important;
@@ -1146,8 +1153,8 @@ a[href*="?Socialist"] {
     right: 20px;
     width: 300px;
     margin-top: 5px;
-    border: 7px solid #d24d33;
-    border-top: 15px solid rgba(210, 77, 51, 0.8)!important;
+    border: 3px solid #d24d33;
+    border-top: 15px solid #d24d33!important;
     opacity: .6;
 }
 
@@ -1157,6 +1164,7 @@ a[href*="?Socialist"] {
 
 .wiki-page .wiki-page-content .wiki>.toc>ul:before {
     content: "Table of Contents";
+    opacity: .8!important;
     transform: translate(40px, -10px);
     font-weight: bold;
 }
@@ -1167,7 +1175,11 @@ a[href*="?Socialist"] {
     border: 0;
 }
 
-.wiki-page .wiki-page-content .wiki>.toc>ul>li, .wiki-page .wiki-page-content .wiki>.toc>ul>li a {
+.wiki-page .wiki-page-content .wiki>.toc>ul a:hover {
+    font-weight: bold;
+}
+
+.wiki-page .wiki-page-content .wiki>.toc>ul>li, .wiki-page .wiki-page-content .wiki>.toc>ul>li a, .wiki-page .wiki-page-content .wiki>.toc>ul>li li, .wiki-page .wiki-page-content .wiki>.toc>ul>li li a {
     display: inline-block;
     align-items: center;
 }
@@ -1188,7 +1200,6 @@ a[href*="?Socialist"] {
     white-space: -moz-pre-wrap; 
     white-space: -pre-wrap; 
 }
-
 
 /*Bottom-bar for Meta Post*/
 
@@ -1224,3 +1235,33 @@ a[href*="?Socialist"] {
 .side a[href="https://www.reddit.com/r/Political_Revolution/about/sticky"]:empty, .comments-page .side a[href="https://www.reddit.com/r/Political_Revolution/about/sticky"] {
  display: none!important;
 }
+
+/* Activism Coloration */
+=======================
+
+/*
+.link .entry {
+ background: -moz-repeating-linear-gradient(
+   45deg,
+   #BC3F41,
+   #BC3F41 2em,
+   #BC4647 2em,
+   #BC4647 4em
+ );
+ background-attachment:fixed;
+ height:100%;
+ background: -webkit-repeating-linear-gradient(
+   45deg,
+   #BC3F41,
+   #BC3F41 20px,
+   #BC4647 20px,
+   #BC4647 40px
+ );
+}*/
+
+.side {
+ background: transparent;
+}
+
+/*======================
+End Activism Coloration */
