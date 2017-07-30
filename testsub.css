@@ -747,28 +747,32 @@ left:130px;
     content: 'Minuteman';
 }
 .flair-medal-2:before {
-    content: 'Activism Rank  2';
+    content: 'Militiaman';
 }
 .flair-medal-3:before {
-    content: 'Activism Rank  3';
+    content: 'Soldier';
 }
 .flair-medal-4:before {
-    content: 'Activism Rank  4';
+    content: 'Cavalry';
 }
 .flair-medal-5:before {
-    content: 'Activism Rank  5';
+    content: 'Admiral';
 }
 .flair-medal-6:before {
-    content: 'Activism Rank  6';
+    content: 'Continental';
 }
 .flair-medal-7:before {
-    content: 'Activism Rank  7';
+    content: 'Patriot';
 }
 .flair-medal-8:before {
-    content: 'Activism Rank  8';
+    content: 'Son of Liberty';
 }
 .flair-medal-9:before {
-    content: 'Activism Rank  9';
+    content: 'Marquis de Sandersette';
+}
+
+.flair-medal-gb:before {
+    content: "General George Bernieston"
 }
 
 /* Custom Flairs */
